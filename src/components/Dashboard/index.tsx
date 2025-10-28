@@ -185,7 +185,7 @@ export const DashboardStyle = styled.div`
   .card {
     margin-left: 10px;
     margin-bottom: 10px;
-    width: 220px;
+    flex: 20%;
     background: #fff;
     border: 1px solid transparent;
     border-radius: 12px;
@@ -290,7 +290,7 @@ export const DashboardStyle = styled.div`
 
   @media (max-width: 768px) {
     .card {
-      width: calc(100% - 10px) !important;
+      flex: calc(100% - 10px) !important;
     }
     .view-cart-btn {
         position: relative;
