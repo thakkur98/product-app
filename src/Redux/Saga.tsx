@@ -8,7 +8,7 @@ const fetchData = async () =>{
    return products;
 } 
 
-function* fetchSaga() {
+function* fetchSaga(): Generator<any, void, any> {
   try {
     const data = yield call(fetchData);
     yield put({ type: API_SUCCESS, payload: data });
