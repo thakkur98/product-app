@@ -1,4 +1,3 @@
-"use client";
 import { API_REQUEST } from "@/src/Redux/Constant";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
